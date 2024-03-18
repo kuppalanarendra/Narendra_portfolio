@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 60px;
+}
+.navbar{
+    padding: 10px 10% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+     background-color: lightslategrey; 
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.main{
+    padding: 10px 10%;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10%;
+    
+    font-size: 30px;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid red; 
+     flex-basis: 30%;
+
+}
+.c1{
+    flex-basis: 65%;
+}
+.c1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.circle img {
+    width: 100%; /* Make the image fill the circle */
+   
+     object-fit: cover;  
+}
+.text h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.span{
+    color: palevioletred;
+}
+#About{
+    padding: 80px 10%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clo1{
+    flex-basis: 35%;
+}
+.clo1 img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+.col2{
+    flex-basis:60% ;
+}
+.col2 p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.sub-title{
+    font-size: 50px;
+    font-weight: 400;
+    color:lightsalmon;
+    padding-bottom: 10px;
+}
+
+
+#skill{
+    padding: 50px 10%;
+
+}
+.tech{
+    font-size: 50px;
+    font-weight: 400;
+    color:lightsalmon;
+    padding-bottom: 10px;
+
+}
+.Skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tech1{
+    flex-basis: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.tech2{
+    flex-basis: 45%;
+    padding-top: 25px;
+    
+}
+.tech2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+i{
+    display: inline-block;
+    /* margin: 10px 10px; */
+    flex-wrap: wrap;
+    color: red;
+}
+.tech1 p{
+    color: aqua;
+}
+span{
+    color:lightcoral;
+
+}
+#prjts{
+    padding: 50px 5%;
+
+}
+.p{
+    color: red;
+    font-size: 50px;
+    font-weight: 300;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    /* height: 400px;
+    width: 100%;
+    border: 1px solid blue; */
+   
+}
+.p1{
+    height: 400px;
+    width: 320px;
+    border-radius: 15%;
+    border: 1px solid gold;
+
+    
+}
+.p1 h3{
+    padding: 10px 10%;
+    color:magenta;
+}
+.p1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 10px 10%;
+    
+    
+    
+}
+
+.ellipse-button {
+    width: 75px; /* Width of the button */
+    height: 40px; /* Height of the button */
+    border-radius: 40%/70%; /* Adjust these values to create the ellipse shape */
+
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text horizontally */
+    /* line-height: 10px;  */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 1px 15%;
+   
+}
+.ellipse-button a{
+    text-decoration: none;
+}
+.eclipse{
+    display: flex;
+    justify-content: space-between;
+}
+#contact{
+   padding-top: 5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+    
+    
+}
+.con p{
+    margin-left: 37%;
+   font-size: medium;
+    
+}
+.con h1{
+    width: 200px;
+    font-size: xx-large;
+    margin-left: 25%;
+    font-stretch:extra-condensed;
+}
+.curved-button {
+    padding: 10px 20px;
+    width: 300px;
+   
+    
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+  
+}
+.bn a svg{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  
+  
+}
+.bn a{
+   margin-top: 10px;
+   
+    
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.cv{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: brown;
+    cursor: pointer;
+}
