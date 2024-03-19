@@ -180,12 +180,13 @@ span{
     width: 320px;
     border-radius: 15%;
     border: 1px solid gold;
+    margin-bottom: 20px;
 
     
 }
 @media (max-width: 768px) {
     .p1 {
-        width: 100%;
+        width: calc(50% - 20px); /* Adjust width and margin as needed */
     }
 }
 .p1 h3{
