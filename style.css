@@ -183,6 +183,11 @@ span{
 
     
 }
+@media (max-width: 768px) {
+    .p1 {
+        width: 100%;
+    }
+}
 .p1 h3{
     padding: 10px 10%;
     color:magenta;
