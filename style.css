@@ -295,7 +295,10 @@ footer p{
     text-align: center;
     height: 26vh;
     margin: 0 1rem;
-    font-size:14px;
+    font-size:12px;
     font-weight: lighter;
     color:#ccc;
+}
+footer ul li a{
+    font-size: 12.5px;
 }
