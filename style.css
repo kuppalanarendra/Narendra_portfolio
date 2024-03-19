@@ -105,6 +105,7 @@ ul li a{
 
 #skill{
     padding: 50px 10%;
+    height: 500px;
 
 }
 .tech{
@@ -151,6 +152,8 @@ span{
 }
 #prjts{
     padding: 50px 5%;
+    height: 600px;
+    width: 100%;
 
 }
 .p{
@@ -220,7 +223,9 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+    height: 500px;
    
     
     
