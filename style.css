@@ -152,7 +152,7 @@ span{
 }
 #prjts{
     padding: 40px 5%;
-    height: 620px;
+    overflow: hidden;
     width: 100%;
 
 }
@@ -167,7 +167,7 @@ span{
 }
 .projects{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     flex-wrap: wrap;
     /* height: 400px;
@@ -176,19 +176,17 @@ span{
    
 }
 .p1{
-    height: 400px;
-    width: 320px;
+   height: auto; /* Remove fixed height */
+    width: calc(33.33% - 20px);
     border-radius: 15%;
     border: 1px solid gold;
     margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 
     
 }
-@media (max-width: 768px) {
-    .p1 {
-        width: calc(50% - 20px); /* Adjust width and margin as needed */
-    }
-}
+
 .p1 h3{
     padding: 10px 10%;
     color:magenta;
